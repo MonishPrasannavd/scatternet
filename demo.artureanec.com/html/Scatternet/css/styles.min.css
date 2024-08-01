@@ -18153,7 +18153,8 @@ h5 {
 }
 
 p {
-    color: #82868a;
+    /* color: #82868a; */
+    color: #61656A;
     line-height: 24px
 }
 
@@ -19577,7 +19578,7 @@ ul li::before {
     color: #fff;
     font-size: 30px;
     line-height: 40px;
-    letter-spacing: -.050em
+    letter-spacing: 1px;
 }
 
 @media only screen and (min-width:576px) {
@@ -22171,7 +22172,7 @@ footer.footer .socials-holder.socials-mobile {
     -ms-flex-align: center;
     align-items: center;
     background-color: #424242;
-    height: 90px;
+    height: 85px;
     width: 85px;
     right: -15px;
     bottom: -15px
@@ -22180,15 +22181,16 @@ footer.footer .socials-holder.socials-mobile {
 @media only screen and (min-width:768px) {
     .about-welcome .title-block .icon-holder {
         height: 147px;
-        width: 131px;
-        bottom: -32px;
-        right: -31px
+        width: 147px;
+        bottom: -62px;
+        right: -62px
     }
 }
 
 .about-welcome .title-block .icon-holder .icon {
-    font-size: 45px;
-    fill: #fff
+    vertical-align: 1.5em;
+    font-size: 60px;
+    fill: #fff;
 }
 
 .about-welcome .description .title {
