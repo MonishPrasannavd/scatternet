@@ -17706,7 +17706,7 @@ textarea {
 
 @media only screen and (min-width:1200px) {
     .section {
-        padding: 140px 0
+        padding: 100px 0
     }
 }
 
@@ -21711,12 +21711,12 @@ footer.footer .logo .icon {
 }
 
 footer.footer .footer-top {
-    padding-bottom: 50px
+    padding-bottom: 20px
 }
 
 @media only screen and (min-width:992px) {
     footer.footer .footer-top {
-        padding-bottom: 62px
+        padding-bottom: 20px
     }
 }
 
@@ -21783,7 +21783,7 @@ footer.footer .footer-menu {
     -ms-flex-align: start;
     align-items: flex-start;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    flex-direction: column;
     list-style: none;
     padding: 0;
     margin: 0
@@ -21809,7 +21809,7 @@ footer.footer .footer-lower p {
 
 footer.footer .footer-lower {
     border-top: 1px solid #2c2f32;
-    padding: 31px 0 24px 0
+    padding: 31px 0 10px 0
 }
 
 footer.footer .copyright {
@@ -27949,7 +27949,7 @@ section.section.product-info {
 
 @media only screen and (min-width:768px) {
     .promo--style-2 .slider-nav {
-        padding: 35px 75px 35px 75px;
+        padding: 35px 75px 35px 340px;
         border-bottom: 11px solid #0d73fc;
         background-color: rgba(0, 0, 0, .37);
         bottom: 0;
@@ -28399,7 +28399,8 @@ section.section.product-info {
 
 .brands--style-2 {
     position: relative;
-    background-color: #eff2f5
+    background-color: #eff2f5;
+    padding: 100px 0px !important;
 }
 
 .brand-item--style-2 {
@@ -28565,7 +28566,7 @@ section.section.product-info {
 }
 
 footer.footer--style-2 {
-    padding: 80px 0 30px 0
+    padding: 80px 0 10px 0
 }
 
 footer.footer--style-2 .socials-holder {
@@ -31120,6 +31121,10 @@ footer.footer--style-3 .copyright {
     width: 35%;
 }
 .mt-40{
-    margin-top: 8rem;
+    margin-top: 6.2rem;
+}
+.foot-logo{
+    width: 100%;
+    margin-top: 20px;
 }
 /*# sourceMappingURL=styles.min.css.map */
