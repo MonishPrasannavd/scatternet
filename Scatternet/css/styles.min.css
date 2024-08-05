@@ -27229,6 +27229,7 @@ section.section.product-info {
     .billing-form .payment-block {
         margin-top: 90px
     }
+    
 }
 
 @media only screen and (min-width:992px) {
@@ -31129,5 +31130,17 @@ footer.footer--style-3 .copyright {
 .foot-logo{
     width: 100%;
     margin-top: 20px;
+}
+@media only screen and (max-width:430px){
+    .foot-logo{
+        width: 60% !important;
+        margin: auto;
+    }
+}
+.e-main{
+    color: #fff;
+}
+.phone-number{
+    color: #fff;
 }
 /*# sourceMappingURL=styles.min.css.map */
