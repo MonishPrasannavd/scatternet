@@ -22889,7 +22889,7 @@ footer.footer .socials-holder.socials-mobile {
         background: #fff;
         padding: 42px 30px 50px 30px;
         max-width: 500px;
-        margin-left: 100px;
+        margin-left: 50px;
         -webkit-box-shadow: 0 3px 15px 2px rgba(0, 0, 0, .05);
         box-shadow: 0 3px 15px 2px rgba(0, 0, 0, .05)
     }
@@ -22898,7 +22898,7 @@ footer.footer .socials-holder.socials-mobile {
 @media only screen and (min-width:1200px) {
     .contacts-banner {
         padding: 60px 65px 58px 65px;
-        max-width: 550px
+        max-width: 450px
     }
 }
 
@@ -22944,7 +22944,7 @@ footer.footer .socials-holder.socials-mobile {
 
     .contacts-banner .button span,
     .contacts-banner .button::before {
-        padding: 7px 125px
+        padding: 7px 70px
     }
 }
 
