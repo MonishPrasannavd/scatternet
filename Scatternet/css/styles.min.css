@@ -17277,6 +17277,11 @@ textarea {
     display: table-cell;
     vertical-align: middle
 }
+.align-items{
+    display: block;
+    vertical-align:middle ;
+    margin-top: 12rem;
+}
 
 .text-center {
     text-align: center
@@ -19741,7 +19746,7 @@ ul li::before {
 }
 
 .promo--style-2-slider .align-container {
-    padding: 50px 0 200px 0;
+    padding: 10px 0 200px 0;
     height: 500px
 }
 
@@ -19753,7 +19758,7 @@ ul li::before {
 
 @media only screen and (min-width:992px) {
     .promo--style-2-slider .align-container {
-        padding: 200px 0;
+        padding: 10px 0;
         height: 870px
     }
 }
