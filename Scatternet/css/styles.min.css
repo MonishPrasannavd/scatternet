@@ -21970,8 +21970,12 @@ footer.footer .socials-holder.socials-mobile {
 }
 
 @media only screen and (min-width:1200px) {
-    .promo-primary {
+    /* .promo-primary {
         width: calc(100% - 53px);
+        padding-left: 53px
+    } */
+    .promo-primary {
+        width: calc(100% - 0px);
         padding-left: 53px
     }
 }
@@ -31167,7 +31171,12 @@ footer.footer--style-3 .copyright {
 .contact-info i{
     font-size: 22px;
 }
-
+.my-50{
+    margin: 7rem 0rem;
+}
+.my-60{
+    margin: 5rem 0rem;
+}
 @media only screen and (min-width:1366px) {
     .w-40{
         width: 25% !important;
