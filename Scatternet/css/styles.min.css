@@ -539,6 +539,9 @@ mark {
     font-size: 90%;
     color: #6c757d
 }
+.mt-90{
+    margin-top: 3rem;
+}
 
 code {
     font-size: 87.5%;
@@ -593,12 +596,14 @@ pre code {
     .container {
         max-width: 540px
     }
+
 }
 
 @media (min-width:768px) {
     .container {
         max-width: 720px
     }
+    
 }
 
 @media (min-width:992px) {
@@ -27959,19 +27964,19 @@ section.section.product-info {
     display: flex;
     -webkit-box-align: end;
     -ms-flex-align: end;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     bottom: 160px;
     padding-left: 15px
 }
 
 @media only screen and (min-width:768px) {
     .promo--style-2 .slider-nav {
-        padding: 35px 75px 35px 75px;
+        padding: 35px 50px 35px 50px;
         border-bottom: 11px solid #0d73fc;
         background-color: rgba(0, 0, 0, .37);
         bottom: 0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 }
 
@@ -28583,7 +28588,7 @@ section.section.product-info {
 }
 
 footer.footer--style-2 {
-    padding: 80px 0 10px 0
+    padding: 50px 0 10px 0
 }
 
 footer.footer--style-2 .socials-holder {
@@ -31147,12 +31152,20 @@ footer.footer--style-3 .copyright {
         width: 60% !important;
         margin: auto;
     }
+    .mt-90{
+        margin-top: 0rem;
+    }
 }
 .e-main{
     color: #fff;
 }
+
 .phone-number{
     color: #fff;
+}
+
+.contact-info i{
+    font-size: 22px;
 }
 
 @media only screen and (min-width:1366px) {
@@ -31160,4 +31173,5 @@ footer.footer--style-3 .copyright {
         width: 25% !important;
     }
 }
+
 /*# sourceMappingURL=styles.min.css.map */
