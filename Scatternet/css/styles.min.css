@@ -18738,22 +18738,24 @@ ul li::before {
 
     .header .button span,
     .header .button::before {
-        padding: 15px 45px
+        padding: 15px 45px;
     }
 }
 
 @media only screen and (min-width:1366px) {
-
+     
     .header .button span,
     .header .button::before {
-        padding: 21px 56px
+        padding: 15px 45px;
     }
+
 }
 
 .logo-block {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
-    display: inline-flex
+    display: inline-flex;
+    padding: 10px;
 }
 
 .logo-block .logo {
@@ -19028,7 +19030,7 @@ ul li::before {
 
 @media only screen and (min-width:1200px) {
     .header.header--style-2 {
-        padding: 10px 0 10px 20px;
+        padding: 0px 20px 0px 20px;
         position: absolute
     }
 }
@@ -19059,8 +19061,9 @@ ul li::before {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    padding: 0;
+    padding: 10px 0px;
     margin-right: 45px;
+    margin-bottom: 0px;
     list-style-type: none;
     line-height: initial
 }
@@ -19288,6 +19291,9 @@ ul li::before {
 .main-promo {
     position: relative;
     width: 100%
+}
+.w-40{
+    width: 35%;
 }
 
 @media only screen and (min-width:1200px) {
@@ -31126,9 +31132,7 @@ footer.footer--style-3 .copyright {
 .intro-mobile-menu>li:hover>a::after {
     width: 100%
 }
-.w-40{
-    width: 35%;
-}
+
 .mt-40{
     margin-top: 6.2rem;
 }
@@ -31147,5 +31151,11 @@ footer.footer--style-3 .copyright {
 }
 .phone-number{
     color: #fff;
+}
+
+@media only screen and (min-width:1366px) {
+    .w-40{
+        width: 25% !important;
+    }
 }
 /*# sourceMappingURL=styles.min.css.map */
