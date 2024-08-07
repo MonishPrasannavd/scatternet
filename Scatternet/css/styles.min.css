@@ -23105,7 +23105,7 @@ footer.footer .socials-holder.socials-mobile {
 }
 
 .info-box:hover .info-box__img::before {
-    background-color: rgba(0, 0, 0, .2)
+    background-color: rgba(0, 0, 0, .6)
 }
 
 .info-box:hover .info-box__img img {
