@@ -23105,7 +23105,7 @@ footer.footer .socials-holder.socials-mobile {
 }
 
 .info-box:hover .info-box__img::before {
-    background-color: rgba(13, 115, 252, .6)
+    background-color: rgba(0, 0, 0, .2)
 }
 
 .info-box:hover .info-box__img img {
@@ -23139,7 +23139,7 @@ footer.footer .socials-holder.socials-mobile {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(13, 115, 252, .3);
+    background-color: rgba(0, 0, 0, .2);
     z-index: 1;
     -webkit-transition: background-color .6s;
     -o-transition: background-color .6s;
