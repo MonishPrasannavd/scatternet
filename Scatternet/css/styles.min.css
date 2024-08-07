@@ -28541,7 +28541,8 @@ section.section.product-info {
     transition: background-color .3s;
     -webkit-transition-delay: .5s;
     -o-transition-delay: .5s;
-    transition-delay: .5s
+    transition-delay: .5s;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .cases-slider .img-bg {
