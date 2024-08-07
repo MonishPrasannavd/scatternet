@@ -23910,7 +23910,7 @@ footer.footer .socials-holder.socials-mobile {
     }
 }
 
-.pagination li.current a {
+.pagination li.current button {
     color: #fff;
     background-color: #0d73fc
 }
@@ -31197,6 +31197,19 @@ footer.footer--style-3 .copyright {
     .w-40{
         width:40% !important;
     }
+}
+
+.btn-pagenation{
+        min-width: 50px;
+        padding: 10px 5px;
+        border: 2px solid #eff2f5
+}
+.btn-next{
+    background-color: #0D73FC;
+    color: #FFF;
+}
+.btn-next:hover{
+  color: #FFF;
 }
 
 /*# sourceMappingURL=styles.min.css.map */
