@@ -19301,7 +19301,7 @@ ul li::before {
     width: 100%
 }
 .w-40{
-    width: 35%;
+    width: 55%;
 }
 
 @media only screen and (min-width:1200px) {
@@ -23190,7 +23190,7 @@ footer.footer .socials-holder.socials-mobile {
     letter-spacing: -.050em;
     margin-bottom: 10px;
     padding: 0 25px;
-    opacity: .5
+    opacity: .7;
 }
 
 .info-box__title {
@@ -28637,7 +28637,7 @@ footer.footer--style-2 .button {
     width: 100%;
     border: 2px solid #0d73fc;
     text-align: center;
-    margin-top: 15px
+  
 }
 
 footer.footer--style-2 .button span,
@@ -31193,10 +31193,10 @@ footer.footer--style-3 .copyright {
 .my-60{
     margin: 5rem 0rem;
 }
-/* @media only screen and (min-width:1366px) {
+@media only screen and (min-width:1366px) {
     .w-40{
-        width: 3% !important;
+        width:40% !important;
     }
-} */
+}
 
 /*# sourceMappingURL=styles.min.css.map */
