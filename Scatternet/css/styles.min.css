@@ -21951,6 +21951,19 @@ footer.footer .socials-holder.socials-mobile {
     background-size: 24px 30px
 }
 
+.subscribe-form .input-name{
+    width: 100%;
+    background: 0 0;
+    border: none;
+    border-bottom: 1px solid #3c3d40;
+    margin-bottom: 18px;
+    padding: 3px 45px 14px 0;
+    outline: 0;
+    color: #fff;
+    background: url(../img/svg/user.svg) right 0 no-repeat;
+    background-size: 24px 30px
+}
+
 .subscribe-form .button {
     -webkit-appearance: none;
     -moz-appearance: none;
