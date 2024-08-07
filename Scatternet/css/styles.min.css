@@ -21951,6 +21951,19 @@ footer.footer .socials-holder.socials-mobile {
     background-size: 24px 30px
 }
 
+.subscribe-form .input-name{
+    width: 100%;
+    background: 0 0;
+    border: none;
+    border-bottom: 1px solid #3c3d40;
+    margin-bottom: 18px;
+    padding: 3px 45px 14px 0;
+    outline: 0;
+    color: #fff;
+    background: url(../img/svg/user.svg) right 0 no-repeat;
+    background-size: 24px 30px
+}
+
 .subscribe-form .button {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -23092,7 +23105,7 @@ footer.footer .socials-holder.socials-mobile {
 }
 
 .info-box:hover .info-box__img::before {
-    background-color: rgba(13, 115, 252, .6)
+    background-color: rgba(0, 0, 0, .6)
 }
 
 .info-box:hover .info-box__img img {
@@ -23126,7 +23139,7 @@ footer.footer .socials-holder.socials-mobile {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(13, 115, 252, .3);
+    background-color: rgba(0, 0, 0, .2);
     z-index: 1;
     -webkit-transition: background-color .6s;
     -o-transition: background-color .6s;
@@ -23177,7 +23190,7 @@ footer.footer .socials-holder.socials-mobile {
     letter-spacing: -.050em;
     margin-bottom: 10px;
     padding: 0 25px;
-    opacity: .3
+    opacity: .5
 }
 
 .info-box__title {
