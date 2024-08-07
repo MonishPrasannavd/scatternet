@@ -311,8 +311,8 @@
 									<div class="tabs-content">
 										<!-- tabs content items start-->
 										<div class="tabs-content__item">
-											<div class="row">
-												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2">
+											<div class="row" id="grid-container">
+												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2 grid-item">
 													<!-- item start-->
 													<div class="info-box">
 														<div class="info-box__img"><img src="img/products/industrialComputers.webp"
@@ -335,7 +335,7 @@
 													</div>
 													<!-- item end-->
 												</div>
-												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2">
+												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2 grid-item">
 													<!-- item start-->
 													<div class="info-box">
 														<div class="info-box__img"><img src="img/products/np.webp" alt="service" /></div>
@@ -358,7 +358,7 @@
 													</div>
 													<!-- item end-->
 												</div>
-												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2">
+												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2 grid-item">
 													<!-- item start-->
 													<div class="info-box">
 														<div class="info-box__img"><img src="img/products/IM.webp" alt="service" /></div>
@@ -381,7 +381,7 @@
 													</div>
 													<!-- item end-->
 												</div>
-												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2">
+												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2 grid-item">
 													<!-- item start-->
 													<div class="info-box">
 														<div class="info-box__img"><img src="img/products/industrialComputers.webp"
@@ -404,7 +404,7 @@
 													</div>
 													<!-- item end-->
 												</div>
-												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2">
+												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2 grid-item">
 													<!-- item start-->
 													<div class="info-box">
 														<div class="info-box__img"><img src="img/products/np.webp" alt="service" /></div>
@@ -427,7 +427,7 @@
 													</div>
 													<!-- item end-->
 												</div>
-												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2">
+												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2 grid-item">
 													<!-- item start-->
 													<div class="info-box">
 														<div class="info-box__img"><img src="img/products/IM.webp" alt="service" /></div>
@@ -450,7 +450,7 @@
 													</div>
 													<!-- item end-->
 												</div>
-												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2">
+												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2 grid-item">
 													<!-- item start-->
 													<div class="info-box">
 														<div class="info-box__img"><img src="img/products/industrialComputers.webp"
@@ -473,7 +473,7 @@
 													</div>
 													<!-- item end-->
 												</div>
-												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2">
+												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2 grid-item">
 													<!-- item start-->
 													<div class="info-box">
 														<div class="info-box__img"><img src="img/products/np.webp" alt="service" /></div>
@@ -496,7 +496,7 @@
 													</div>
 													<!-- item end-->
 												</div>
-												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2">
+												<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 p-2 grid-item">
 													<!-- item start-->
 													<div class="info-box">
 														<div class="info-box__img"><img src="img/products/IM.webp" alt="service" /></div>
@@ -524,14 +524,10 @@
 											<div class="row">
 												<div class="col-12">
 													<!-- pagination start-->
-													<ul class="pagination pagination--primary">
-														<li class="back"><a href="#">Back</a></li>
-														<li class="number current"><a href="#">1</a></li>
-														<li class="number"><a href="#">2</a></li>
-														<li class="number"><a href="#">3</a></li>
-														<li class="number"><a href="#">4</a></li>
-														<li class="number"><a href="#">5</a></li>
-														<li class="next"><a href="#">Next</a></li>
+													<ul id="pagination" class="pagination pagination--primary">
+														<li class="back"><button class="btn btn-pagenation btn-next px-3" onclick="prevPage()">Back</button></li>
+														<!-- Page numbers will be inserted here dynamically -->
+														<li class="next"><button class="btn btn-pagenation btn-next px-3" onclick="nextPage()">Next</button></li>
 													</ul>
 													<!-- pagination end-->
 												</div>
@@ -665,7 +661,7 @@
 											<div class="row">
 												<div class="col-12">
 													<!-- pagination start-->
-													<ul class="pagination pagination--primary">
+													<!-- <ul class="pagination pagination--primary">
 														<li class="back"><a href="#">Back</a></li>
 														<li class="number current"><a href="#">1</a></li>
 														<li class="number"><a href="#">2</a></li>
@@ -673,7 +669,7 @@
 														<li class="number"><a href="#">4</a></li>
 														<li class="number"><a href="#">5</a></li>
 														<li class="next"><a href="#">Next</a></li>
-													</ul>
+													</ul> -->
 													<!-- pagination end-->
 												</div>
 											</div>
@@ -760,7 +756,7 @@
 											<div class="row">
 												<div class="col-12">
 													<!-- pagination start-->
-													<ul class="pagination pagination--primary">
+													<!-- <ul class="pagination pagination--primary">
 														<li class="back"><a href="#">Back</a></li>
 														<li class="number current"><a href="#">1</a></li>
 														<li class="number"><a href="#">2</a></li>
@@ -768,7 +764,7 @@
 														<li class="number"><a href="#">4</a></li>
 														<li class="number"><a href="#">5</a></li>
 														<li class="next"><a href="#">Next</a></li>
-													</ul>
+													</ul> -->
 													<!-- pagination end-->
 												</div>
 											</div>
@@ -855,7 +851,7 @@
 											<div class="row">
 												<div class="col-12">
 													<!-- pagination start-->
-													<ul class="pagination pagination--primary">
+													<!-- <ul class="pagination pagination--primary">
 														<li class="back"><a href="#">Back</a></li>
 														<li class="number current"><a href="#">1</a></li>
 														<li class="number"><a href="#">2</a></li>
@@ -863,7 +859,7 @@
 														<li class="number"><a href="#">4</a></li>
 														<li class="number"><a href="#">5</a></li>
 														<li class="next"><a href="#">Next</a></li>
-													</ul>
+													</ul> -->
 													<!-- pagination end-->
 												</div>
 											</div>
@@ -1021,6 +1017,70 @@
 		<!-- scripts-->
 		<script src="js/common.min.js"></script>
 		<!-- sprite-->
+		
+
+		<script>
+			const itemsPerPage = 6;
+			let currentPage = 1;
+		
+			function showPage(page) {
+				const items = document.querySelectorAll('.grid-item');
+				const totalPages = Math.ceil(items.length / itemsPerPage);
+		
+				// Hide all items
+				items.forEach((item, index) => {
+					item.style.display = 'none';
+				});
+		
+				// Show items for the current page
+				const start = (page - 1) * itemsPerPage;
+				const end = start + itemsPerPage;
+				for (let i = start; i < end && i < items.length; i++) {
+					items[i].style.display = 'block';
+				}
+		
+				// Update pagination
+				const pagination = document.querySelector('#pagination');
+				pagination.querySelectorAll('.number').forEach(pageLink => pageLink.remove());
+				
+				for (let i = 1; i <= totalPages; i++) {
+					const pageItem = document.createElement('li');
+					pageItem.classList.add('number');
+					if (i === page) pageItem.classList.add('current');
+					pageItem.innerHTML = `<button class="btn btn-pagenation" onclick="goToPage(${i})">${i}</button>`;
+					pagination.insertBefore(pageItem, pagination.querySelector('.next'));
+				}
+		
+				// Enable/disable back and next buttons
+				document.querySelector('.back').style.display = (page === 1) ? '' : 'inline-block';
+				document.querySelector('.next').style.display = (page === totalPages) ? 'none' : 'inline-block';
+			}
+		
+			function goToPage(page) {
+				currentPage = page;
+				showPage(page);
+			}
+		
+			function prevPage() {
+				if (currentPage > 1) {
+					currentPage--;
+					showPage(currentPage);
+				}
+			}
+		
+			function nextPage() {
+				const totalPages = Math.ceil(document.querySelectorAll('.grid-item').length / itemsPerPage);
+				if (currentPage < totalPages) {
+					currentPage++;
+					showPage(currentPage);
+				}
+			}
+		
+			// Initialize
+			document.addEventListener('DOMContentLoaded', () => {
+				showPage(1);
+			});
+		</script>
 		
 	</body>
 </html>
