@@ -28542,7 +28542,7 @@ section.section.product-info {
     -webkit-transition-delay: .5s;
     -o-transition-delay: .5s;
     transition-delay: .5s;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .cases-slider .img-bg {
@@ -28554,7 +28554,7 @@ section.section.product-info {
 }
 
 .cases-slider .slick-current .overlay {
-    background-color: rgba(13, 115, 252, .55)
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 .cases-slider figcaption {
