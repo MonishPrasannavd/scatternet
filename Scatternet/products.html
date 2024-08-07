@@ -839,7 +839,7 @@
 		
 				// Enable/disable back and next buttons
 				document.querySelector('.back').style.display = (page === 1) ? '' : 'inline-block';
-				document.querySelector('.next').style.display = (page === totalPages) ? '' : 'inline-block';
+				document.querySelector('.next').style.display = (page === totalPages) ? 'none' : 'inline-block';
 			}
 		
 			function goToPage(page) {
