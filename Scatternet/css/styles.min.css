@@ -19067,11 +19067,13 @@ ul li::before {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+    justify-content: end;
     padding: 10px 0px;
     margin-right: 45px;
     margin-bottom: 0px;
     list-style-type: none;
-    line-height: initial
+    line-height: initial;
+    width: 600px;
 }
 
 .main-menu>li {
@@ -31177,10 +31179,10 @@ footer.footer--style-3 .copyright {
 .my-60{
     margin: 5rem 0rem;
 }
-@media only screen and (min-width:1366px) {
+/* @media only screen and (min-width:1366px) {
     .w-40{
-        width: 25% !important;
+        width: 3% !important;
     }
-}
+} */
 
 /*# sourceMappingURL=styles.min.css.map */
