@@ -31202,14 +31202,12 @@ footer.footer--style-3 .copyright {
 .btn-pagenation{
         min-width: 50px;
         padding: 10px 5px;
-        border: 2px solid #eff2f5
+        border: 2px solid #eff2f5;
 }
 .btn-next{
-    background-color: #0D73FC;
-    color: #FFF;
-}
-.btn-next:hover{
-  color: #FFF;
+    background-color: transparent;
+    border: 2px solid #eff2f5;
+    color: #000;
 }
 
 /*# sourceMappingURL=styles.min.css.map */

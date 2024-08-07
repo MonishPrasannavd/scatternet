@@ -838,8 +838,8 @@
 				}
 		
 				// Enable/disable back and next buttons
-				document.querySelector('.back').style.display = (page === 1) ? 'none' : 'inline-block';
-				document.querySelector('.next').style.display = (page === totalPages) ? 'none' : 'inline-block';
+				document.querySelector('.back').style.display = (page === 1) ? '' : 'inline-block';
+				document.querySelector('.next').style.display = (page === totalPages) ? '' : 'inline-block';
 			}
 		
 			function goToPage(page) {
