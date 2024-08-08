@@ -31214,5 +31214,7 @@ footer.footer--style-3 .copyright {
     border: 2px solid #eff2f5;
     color: #000;
 }
-
+.dfi-logo{
+    /* max-height: 40px !important; */
+}
 /*# sourceMappingURL=styles.min.css.map */
