@@ -21194,8 +21194,21 @@ ul li::before {
 
 @media only screen and (min-width:1200px) {
     .brands-slider .slider-item {
-        height: 80px
+        height: 80px;
     }
+    .brands-slider .slider-item .dfi-dfi {
+        padding-left: 70px;
+        padding-right: 70px;
+        margin-left: 70px;
+     }
+     .brands-slider .slider-item .belden {
+        padding-left: 40px;
+        padding-right: 40px;
+     }
+     .brands-slider .slider-item .zebra {
+        padding-left: 30px;
+        padding-right: 30px;
+     }
 }
 
 .brands-slider .slider-item img {
