@@ -21199,7 +21199,7 @@ ul li::before {
     .brands-slider .slider-item .dfi-dfi {
         padding-left: 70px;
         padding-right: 70px;
-        margin-left: 70px;
+        /* margin-left: 70px; */
      }
      .brands-slider .slider-item .belden {
         padding-left: 40px;
