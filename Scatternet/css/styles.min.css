@@ -18185,7 +18185,7 @@ a {
 }
 
 a:hover {
-    opacify: 1;
+    opacity: 1;
     text-decoration: none
 }
 
@@ -31227,7 +31227,5 @@ footer.footer--style-3 .copyright {
     border: 2px solid #eff2f5;
     color: #000;
 }
-.dfi-logo{
-    /* max-height: 40px !important; */
-}
+
 /*# sourceMappingURL=styles.min.css.map */
