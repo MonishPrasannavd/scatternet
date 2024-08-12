@@ -21197,23 +21197,22 @@ ul li::before {
         height: 80px;
     }
     .brands-slider .slider-item .dfi-dfi {
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 40px;
+        padding-right: 40px;
         /* margin-left: 70px; */
      }
      .brands-slider .slider-item .belden {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
      }
      .brands-slider .slider-item .zebra {
-        padding-left: 30px;
-        padding-right: 30px;
+        /* padding-left: 30px;
+        padding-right: 30px; */
      }
 }
-
 .brands-slider .slider-item img {
     display: inline-block;
-    opacity: .2;
+    /* opacity: .2; */
     max-width: 90%;
     max-height: 50px;
     -webkit-transition: opacity .3s;
@@ -21239,9 +21238,9 @@ ul li::before {
     }
 }
 
-.brands-slider .slider-item img:hover {
+/* .brands-slider .slider-item img:hover {
     opacity: .9
-}
+} */
 
 .brands-dots {
     display: -webkit-box;
@@ -28013,7 +28012,7 @@ section.section.product-info {
         background-color: rgba(0, 0, 0, .37);
         bottom: 0;
         display: flex;
-        justify-content: space-between;
+        justify-content:end;
     }
 }
 
@@ -28473,7 +28472,8 @@ section.section.product-info {
 .brand-item--style-2 .img-holder img {
     margin: 0 auto;
     max-height: 90px;
-    width: auto
+    width: auto;
+    margin-bottom: 20px;
 }
 
 .brand-item--style-2 figcaption {
