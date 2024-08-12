@@ -19301,7 +19301,7 @@ ul li::before {
     width: 100%
 }
 .w-40{
-    width: 55%;
+    width: 40%;
 }
 
 @media only screen and (min-width:1200px) {
@@ -31227,5 +31227,10 @@ footer.footer--style-3 .copyright {
     border: 2px solid #eff2f5;
     color: #000;
 }
+.offcanvas {
+    height: 400px !important;
+}
+.btn:hover {
 
+}
 /*# sourceMappingURL=styles.min.css.map */
