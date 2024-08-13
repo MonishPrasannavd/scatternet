@@ -31202,6 +31202,12 @@ footer.footer--style-3 .copyright {
     .promo--style-2 .slider-nav{
         bottom: 5%;
     }
+    .mobile-link{
+        display: none;
+    }
+    .w-40{
+        width: 80%;
+    }
 }
 .e-main{
     color: #fff;
