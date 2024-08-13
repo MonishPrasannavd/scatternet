@@ -17721,6 +17721,9 @@ textarea {
     .section {
         padding: 100px 0
     }
+    .brands-section{
+        padding: 65px 0;
+    }
 }
 
 .margin-bottom {
