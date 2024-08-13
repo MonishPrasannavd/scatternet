@@ -28006,7 +28006,7 @@ section.section.product-info {
     -webkit-box-align: end;
     -ms-flex-align: end;
     /* align-items: flex-end; */
-    bottom: 5%;
+    bottom: 160px;
     padding-left: 15px
 }
 
@@ -28077,9 +28077,7 @@ section.section.product-info {
     .promo--style-2 .slick-dots::after {
         width: 111px
     }
-    .promo--style-2 .slider-nav{
-        bottom: 6% !important;
-    }
+    
 }
 
 /* .promo--style-2 .video-block {
@@ -31200,6 +31198,9 @@ footer.footer--style-3 .copyright {
     }
     .mt-90{
         margin-top: 0rem;
+    }
+    .promo--style-2 .slider-nav{
+        bottom: 5%;
     }
 }
 .e-main{
