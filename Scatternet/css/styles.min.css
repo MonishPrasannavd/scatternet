@@ -18558,7 +18558,8 @@ ul li::before {
     width: 24px;
     height: 24px;
     display: inline-block;
-    position: relative
+    position: relative;
+    margin-right: 30px ;
 }
 
 .hamburger-inner {
