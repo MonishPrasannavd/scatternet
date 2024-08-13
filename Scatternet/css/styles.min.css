@@ -28006,7 +28006,7 @@ section.section.product-info {
     -webkit-box-align: end;
     -ms-flex-align: end;
     /* align-items: flex-end; */
-    bottom: 160px;
+    bottom: 5%;
     padding-left: 15px
 }
 
@@ -28076,6 +28076,9 @@ section.section.product-info {
 @media only screen and (min-width:576px) {
     .promo--style-2 .slick-dots::after {
         width: 111px
+    }
+    .promo--style-2 .slider-nav{
+        bottom: 6% !important;
     }
 }
 
