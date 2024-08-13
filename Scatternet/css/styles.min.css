@@ -17596,7 +17596,9 @@ textarea {
     -o-transition: background-color .3s;
     transition: background-color .3s
 }
-
+.promo-slider .overlay{
+    height: 100%;
+}
 .img-holder {
     display: block;
     position: relative;
@@ -19773,7 +19775,7 @@ ul li::before {
 @media only screen and (min-width:992px) {
     .promo--style-2-slider .align-container {
         padding: 10px 0;
-        height: 870px
+        height: 600px
     }
 }
 
@@ -28007,7 +28009,7 @@ section.section.product-info {
 
 @media only screen and (min-width:768px) {
     .promo--style-2 .slider-nav {
-        padding: 35px 50px 35px 50px;
+        padding: 20px 50px 20px 50px;
         border-bottom: 11px solid #0d73fc;
         background-color: rgba(0, 0, 0, .37);
         bottom: 0;
@@ -31232,5 +31234,8 @@ footer.footer--style-3 .copyright {
 }
 .button--transparent i{
   color: #FFF;
+}
+.industrial-iot{
+    margin-top: 8rem;
 }
 /*# sourceMappingURL=styles.min.css.map */
