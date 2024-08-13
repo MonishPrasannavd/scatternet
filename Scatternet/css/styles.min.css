@@ -623,7 +623,7 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .row {
@@ -19301,7 +19301,7 @@ ul li::before {
     width: 100%
 }
 .w-40{
-    width: 40%;
+    width: 60%;
 }
 
 @media only screen and (min-width:1200px) {
@@ -31213,7 +31213,7 @@ footer.footer--style-3 .copyright {
 }
 @media only screen and (min-width:1366px) {
     .w-40{
-        width:40% !important;
+        width:60% !important;
     }
 }
 
@@ -31228,9 +31228,9 @@ footer.footer--style-3 .copyright {
     color: #000;
 }
 .offcanvas {
-    height: 400px !important;
+    height: 100vh !important;
 }
-.btn:hover {
-
+.button--transparent i{
+  color: #FFF;
 }
 /*# sourceMappingURL=styles.min.css.map */
