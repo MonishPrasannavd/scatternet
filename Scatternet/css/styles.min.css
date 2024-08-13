@@ -2914,8 +2914,8 @@ textarea.form-control.is-invalid {
 .btn.focus,
 .btn:focus {
     outline: 0;
-    -webkit-box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
-    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
+    /* -webkit-box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25); */
+    /* box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25) */
 }
 
 .btn.disabled,
@@ -31231,6 +31231,9 @@ footer.footer--style-3 .copyright {
     height: 100vh !important;
 }
 .button--transparent i{
-  color: #FFF;
+  color: #000;
+}
+.button.button--transparent::before {
+    background-color: #fff !important;
 }
 /*# sourceMappingURL=styles.min.css.map */
