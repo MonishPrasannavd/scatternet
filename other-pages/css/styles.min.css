@@ -24144,9 +24144,7 @@ footer.footer .socials-holder.socials-mobile {
 
 .book-item {
     background-color: #fff;
-    /* padding: 30px 30px 40px 30px; */
-    /* background-color: #0D73FC; */
-    padding: 20px;
+    padding: 30px 30px 40px 30px;
     -webkit-box-shadow: 0 3px 15px 2px rgba(0, 0, 0, .05);
     box-shadow: 0 3px 15px 2px rgba(0, 0, 0, .05);
     margin-bottom: 50px
@@ -24154,40 +24152,37 @@ footer.footer .socials-holder.socials-mobile {
 
 @media only screen and (min-width:992px) {
     .book-item {
-        /* padding: 60px 60px 53px 60px */
-        padding: 20px;
+        padding: 60px 60px 53px 60px
     }
 }
 
 @media only screen and (min-width:1200px) {
     .book-item {
-        /* padding: 20px 80px 73px 80px */
-        padding: 30px;
+        padding: 80px 80px 73px 80px
     }
 }
 
 .book-item .title a {
-    color: #0D73FC;
+    color: #333;
     text-decoration: none;
     -webkit-transition: color .3s;
     -o-transition: color .3s;
     transition: color .3s
 }
+
 .book-item .title a:hover {
     color: #0d73fc
 }
 
 .book-item .img-holder {
-    /* padding-top: 71.95122% */
-    padding-top:50%;
-
+    padding-top: 71.95122%
 }
 
 .book-item .img-bg {
     -o-object-fit: contain;
     object-fit: contain;
     font-family: 'object-fit: contain';
-    /* width: auto; */
+    width: auto;
     z-index: 2
 }
 
