@@ -19081,7 +19081,7 @@ ul li::before {
     display: inline-flex;
     justify-content: end;
     padding: 10px 0px;
-    margin-right: 45px;
+    /* margin-right: 45px; */
     margin-bottom: 0px;
     list-style-type: none;
     line-height: initial;
