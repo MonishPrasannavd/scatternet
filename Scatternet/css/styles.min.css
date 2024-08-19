@@ -17298,6 +17298,9 @@ textarea {
     max-width: 650px;
     margin: 0 auto 40px auto
 }
+.why-choose{
+  max-width: 800px;
+}
 
 @media only screen and (min-width:992px) {
     .primary-heading {
@@ -17723,6 +17726,9 @@ textarea {
     }
     .brands-section{
         padding: 65px 0;
+    }
+    .we-provide{
+        padding: 0px 0px 100px 0px;
     }
 }
 
@@ -31273,4 +31279,7 @@ footer.footer--style-3 .copyright {
     background-color: #fff !important;
     border-color: #fff !important;
 }
+/* .we-provide{
+    padding: 80px 0px 100px 0px !important;
+} */
 /*# sourceMappingURL=styles.min.css.map */
