@@ -20134,11 +20134,18 @@ ul li::before {
 
 .about-item .icon {
     display: none;
-    font-size: 67px;
-    fill: #0d73fc;
     position: absolute;
-    top: -33px;
-    left: 25px
+    top: 15%;
+    left: 15%;
+}
+
+.about-item .icon-holder {
+    position:absolute;
+    background-color:#0D73FC;
+    height: 100px;
+    width: 100px;
+    top:-55px;
+    left: 5.2%;
 }
 
 .about-item .title {
@@ -20148,7 +20155,7 @@ ul li::before {
 
 @media only screen and (min-width:768px) {
     .about-item .title {
-        font-size: 40px
+        font-size: 36px
     }
 }
 
@@ -21061,7 +21068,8 @@ ul li::before {
     display: -ms-flexbox;
     display: flex;
     background-color: #0d73fc;
-    padding: 28px 12px 2px 20px
+    margin-top: 6px;
+    padding:12px 15px;
 }
 
 @media only screen and (min-width:992px) {
@@ -21072,7 +21080,7 @@ ul li::before {
 
 .blog-item .ribbon p {
     margin: 0;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     color: #fff;
     width: 100%
@@ -23351,7 +23359,7 @@ footer.footer .socials-holder.socials-mobile {
     .services-details::before {
         content: "";
         width: 50%;
-        height: 640px;
+        height: 600px;
         background-color: #eff2f5;
         position: absolute;
         top: 0;
