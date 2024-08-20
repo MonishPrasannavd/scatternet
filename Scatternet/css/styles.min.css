@@ -22094,7 +22094,8 @@ footer.footer .socials-holder.socials-mobile {
 }
 
 .promo-primary .overlay {
-    background-color: rgba(13, 115, 252, .2);
+    /* background-color: rgba(13, 115, 252, .2); */
+    background-color: rgba(0, 0, 0, .35) !important;
     z-index: 1
 }
 
