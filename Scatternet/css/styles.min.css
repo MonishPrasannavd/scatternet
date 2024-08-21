@@ -31319,7 +31319,13 @@ footer.footer--style-3 .copyright {
     padding-left: 5px;
     padding-right: 25px;
    }
-
+   .mobile-footer .contact-info{
+    font-size: 22px;
+    text-align: center;
+   }
+   .mobile-footer .contact-info i{
+    margin-left: 5px;
+   }
 }
 
  @media only screen and (min-width:992px) {
@@ -31328,6 +31334,7 @@ footer.footer--style-3 .copyright {
     }
  }
  .accordion-button{
+    font-size: 18px;
     border: none !important;
     color:#fff !important;
     font-size: 1.30rem !important;
