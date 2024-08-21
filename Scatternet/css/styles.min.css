@@ -31294,6 +31294,38 @@ footer.footer--style-3 .copyright {
     background-color: #fff !important;
     border-color: #fff !important;
 }
+@media only screen and (max-width:992px) {
+   .home-footer{
+    display: none;
+   }
+   .mobile-footer{
+    display:block;
+    padding-left: 5px;
+    padding-right: 25px;
+   }
+}
+
+ @media only screen and (min-width:992px) {
+    .mobile-footer{
+     display: none;
+    }
+ }
+ .accordion-button{
+    border: none !important;
+    color:#fff !important;
+    font-size: 1.5rem !important;
+    font-weight: 550 !important;
+ }
+ .accordion{
+    --bs-accordion-bg:none !important;
+    --bs-accordion-border-color:none !important;
+ }
+ .accordion-button:focus{
+    box-shadow: none !important;
+ }
+ .accordion-button:not(.collapsed){
+    --bs-accordion-active-bg:none !important;
+ }
 /* .we-provide{
     padding: 80px 0px 100px 0px !important;
 } */
