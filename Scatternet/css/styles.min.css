@@ -31326,6 +31326,10 @@ footer.footer--style-3 .copyright {
    .mobile-footer .contact-info i{
     margin-left: 5px;
    }
+   .footer-subscribe .title{
+    font-size: 18px;
+    margin-bottom: 20px;
+   }
 }
 
  @media only screen and (min-width:992px) {
@@ -31334,10 +31338,9 @@ footer.footer--style-3 .copyright {
     }
  }
  .accordion-button{
-    font-size: 16px;
+    font-size: 18px !important;
     border: none !important;
     color:#fff !important;
-    font-size: 1.30rem !important;
     font-weight: 550 !important;
     padding:20px 0px 0px 22px !important;
  }
