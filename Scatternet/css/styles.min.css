@@ -21796,7 +21796,7 @@ footer.footer .footer-logo a span {
 
 footer.footer .title {
     color: #fff;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     letter-spacing: 1px;
     margin-top: 30px;
     font-weight: 550 !important;
@@ -31228,7 +31228,7 @@ footer.footer--style-3 .copyright {
 }
 @media only screen and (max-width:430px){
     .foot-logo{
-        width: 60% !important;
+        width: 70% !important;
         margin: auto;
     }
     .mt-90{
@@ -31256,7 +31256,7 @@ footer.footer--style-3 .copyright {
 }
 
 .contact-info i{
-    font-size: 22px;
+    font-size: 25px;
 }
 .my-50{
     margin: 7rem 0rem;
