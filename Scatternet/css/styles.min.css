@@ -28097,9 +28097,21 @@ section.section.product-info {
 
 @media only screen and (min-width:576px) {
     .promo--style-2 .slick-dots::after {
-        width: 111px
+        width: 111px;
     }
     
+}
+@media only screen and (max-width:576px){
+    .promo--style-2 .slick-dots::after {
+        display: none;
+        width: 111px;
+    }
+    .promo--style-2 .slider-nav{
+        justify-content: center;
+    }
+    .promo--style-2 .paging-info{
+        display: none;
+    }
 }
 
 /* .promo--style-2 .video-block {
