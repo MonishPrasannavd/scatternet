@@ -31319,6 +31319,7 @@ footer.footer--style-3 .copyright {
     padding-left: 5px;
     padding-right: 25px;
    }
+
 }
 
  @media only screen and (min-width:992px) {
@@ -31331,10 +31332,18 @@ footer.footer--style-3 .copyright {
     color:#fff !important;
     font-size: 1.5rem !important;
     font-weight: 550 !important;
+    padding:20px 0px 0px 22px !important;
  }
  .accordion{
-    --bs-accordion-bg:none !important;
+    --bs-accordion-bg:transparent !important;
     --bs-accordion-border-color:none !important;
+
+ }
+ .accordion-button::after{
+  display: none; 
+ }
+ .accordion-button .ps-10{
+    margin-left: auto;
  }
  .accordion-button:focus{
     box-shadow: none !important;
