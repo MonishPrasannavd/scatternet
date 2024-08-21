@@ -19748,7 +19748,8 @@ ul li::before {
 
 .slick-dots li.slick-active {
     border: 2px solid #0d73fc;
-    cursor: pointer
+    cursor: pointer;
+    
 }
 
 .slick-dots li button {
@@ -31242,6 +31243,9 @@ footer.footer--style-3 .copyright {
     .w-40{
         width: 80%;
     }
+    .slick-dots li:not(:last-of-type) {
+        margin-right: 10px
+    }
 }
 .e-main{
     color: #fff;
@@ -31306,6 +31310,7 @@ footer.footer--style-3 .copyright {
     background-color: #fff !important;
     border-color: #fff !important;
 }
+
 /* .we-provide{
     padding: 80px 0px 100px 0px !important;
 } */
