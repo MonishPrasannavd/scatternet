@@ -19748,7 +19748,8 @@ ul li::before {
 
 .slick-dots li.slick-active {
     border: 2px solid #0d73fc;
-    cursor: pointer
+    cursor: pointer;
+    
 }
 
 .slick-dots li button {
@@ -20063,7 +20064,7 @@ ul li::before {
 .about .bg-holder .text-holder span {
     display: inline-block;
     /* color: #f7f7f7; */
-    color: #c6c6c6;
+    color: #e1e1e1;
     font-size: 100px;
     line-height: 100px;
     font-weight: 700;
@@ -28097,9 +28098,21 @@ section.section.product-info {
 
 @media only screen and (min-width:576px) {
     .promo--style-2 .slick-dots::after {
-        width: 111px
+        width: 111px;
     }
     
+}
+@media only screen and (max-width:576px){
+    .promo--style-2 .slick-dots::after {
+        display: none;
+        width: 111px;
+    }
+    .promo--style-2 .slider-nav{
+        justify-content: center;
+    }
+    .promo--style-2 .paging-info{
+        display: none;
+    }
 }
 
 /* .promo--style-2 .video-block {
@@ -31229,6 +31242,9 @@ footer.footer--style-3 .copyright {
     }
     .w-40{
         width: 80%;
+    }
+    .slick-dots li:not(:last-of-type) {
+        margin-right: 10px
     }
 }
 .e-main{
