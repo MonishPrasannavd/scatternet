@@ -19092,7 +19092,7 @@ ul li::before {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    justify-content: end;
+    justify-content: center;
     padding: 10px 0px;
     /* margin-right: 45px; */
     margin-bottom: 0px;
