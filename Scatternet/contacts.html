@@ -276,7 +276,7 @@
 											</div>
 											<div class="col-md-6">
 												<label class="input-label">
-													<input class="form-field input input-text" id="input-text" type="text" name="subject" required="required"/><span>Subject</span>
+													<input class="form-field input input-text" id="input-subject" type="text" name="subject" required="required"/><span>Subject</span>
 												</label>
 											</div>
 											<div class="col-md-6">
@@ -289,9 +289,29 @@
 													<input class="form-field input input-mail" id="input-mail" type="email" name="email" required="required"/><span>Email</span>
 												</label>
 											</div>
+											<div class="col-md-6">
+												<label class="input-label">
+													<input class="form-field input input-mail" id="comapany" type="text" name="company" required="required"/><span>Company Name</span>
+												</label>
+											</div>
+											<div class="col-md-6">
+												<label class="input-label">
+													<input class="form-field input input-mail" id="address" type="text" name="address" required="required"/><span>Address</span>
+												</label>
+											</div>
+											<div class="col-md-6">
+												<label class="input-label">
+													<input class="form-field input input-mail" id="city" type="text" name="city" required="required"/><span>City</span>
+												</label>
+											</div>
+											<div class="col-md-6">
+												<label class="input-label">
+													<input class="form-field input input-mail" id="zipcode" type="number" name="zipcode" required="required"/><span>Zip Code</span>
+												</label>
+											</div>
 											<div class="col-12">
 												<label class="textarea-label">
-													<textarea class="form-field textarea" id="textarea" name="message"></textarea><span>Comment</span>
+													<textarea class="form-field textarea" id="textarea" name="query"></textarea><span>Comment</span>
 												</label>
 											</div>
 										</div>
@@ -525,6 +545,72 @@
 		<script src="js/common.min.js"></script>
 		<!-- sprite-->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+		<!-- <script type="text/javascript">
+			(function () {
+				emailjs.init({
+					publicKey: "R5W5N4a1riHrCt8JL",
+				});
+			})();
+		</script> -->
+	
+		<!-- <script type="text/javascript">
+			function sendSubscriptionEmail() {
+				const name = document.getElementById("input-name").value;
+				const phoneno = document.getElementById("input-tel").value;
+				const email = document.getElementById("input-mail").value;
+				const subject = document.getElementById("input-subject").value;
+				const query = document.getElementById("textarea")
+				 
+	
+				let valid = true;
+				let message = '';
+	
+				// Validate form fields
+				if (!name || !phoneno || !email || !checkbox) {
+					valid = false;
+					message = 'Please fill all the fields and agree to receive a text message.';
+				}
+	
+				if (valid) {
+					// Form is valid, proceed to send email
+					const messageBody = `
+				New Subscription
+				Name: ${name}
+				Email: ${email}
+				Phone: ${phoneno}
+				Subject: ${subject}
+				Query: ${query}
+			`;
+	
+					const templateParams = {
+						from_name: name,
+						from_email: email,
+						phone: phoneno,
+						reply_to: 'contactus@biryanipotirvine.com',
+						message: messageBody
+					};
+	
+					emailjs.send('service_mqeqllg', 'template_dalj5rf', templateParams)
+						.then(function (response) {
+							console.log('SUCCESS!', response.status, response.text);
+							document.getElementById("subscribeSuccess").innerHTML = "Subscription Successful!";
+							document.getElementById("subscribeSuccess").style.display = "block";
+						})
+						.catch(function (error) {
+							console.error('FAILED...', error);
+							alert("Subscription failed: " + JSON.stringify(error));
+						});
+				} else {
+					// Form is not valid, show error message
+					document.getElementById("subscribeSuccess").className = 'subscribe-success error-message text-center';
+					document.getElementById("subscribeSuccess").innerHTML = message;
+					document.getElementById("subscribeSuccess").style.display = "block";
+				}
+			}
+	
+		</script> -->
 		
 	</body>
 
