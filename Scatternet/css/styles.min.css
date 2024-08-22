@@ -17202,6 +17202,17 @@ textarea {
     background-color: #0d73fc;
     color: #fff
 }
+.header .button.button--transparent::before{
+    background-color: #25D366;
+    text-align: center;
+}
+
+.header .button i{
+    margin-left: 10px;
+}
+.button:hover .bi {
+    color: white; /* Change icon color on hover */
+  }
 
 .button.button--filled,
 .button.button--filled::before {
@@ -18738,7 +18749,9 @@ ul li::before {
 }
 
 .header .button {
-    display: none
+    display: none;
+    color: #25D366;
+    border: 1px solid #25D366;
 }
 
 .header .button span,
