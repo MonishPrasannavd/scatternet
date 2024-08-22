@@ -16600,7 +16600,7 @@ body.compensate-for-scrollbar {
 
 .icon {
     display: inline-block;
-    width: 2em;
+    width: 3em;
     height: 1em;
     fill: currentColor
 }
@@ -18176,7 +18176,7 @@ h5 {
 
 p {
     /* color: #82868a; */
-    color: #61656A;
+    color: #25272A;
     line-height: 24px
 }
 
@@ -18285,7 +18285,7 @@ blockquote::after {
 }
 
 ul {
-    color: #82868a;
+    color: #25272A;
     list-style: none;
     padding: 0;
     line-height: 30px
@@ -21070,7 +21070,7 @@ ul li::before {
     display: -ms-flexbox;
     display: flex;
     background-color: #0d73fc;
-    margin-top: 7px;
+    margin-top: 0px;
     padding:8px 10px;
 }
 
@@ -21735,7 +21735,7 @@ ul li::before {
 }
 
 footer.footer {
-    background-color: #25272a;
+    background-color:#EFF2F5;
     padding: 70px 0 0 0
 }
 
@@ -21775,7 +21775,7 @@ footer.footer .footer-top {
 }
 
 footer.footer a {
-    color: #82868a;
+    color: #25272A;
     -webkit-transition: color .3s;
     -o-transition: color .3s;
     transition: color .3s;
@@ -21795,11 +21795,11 @@ footer.footer .footer-logo a span {
 }
 
 footer.footer .title {
-    color: #fff;
+    color: #25272A;
     /* margin-bottom: 20px; */
     letter-spacing: 1px;
     margin-top: 30px;
-    font-weight: 550 !important;
+    font-weight: 650 !important;
 }
 
 @media only screen and (min-width:768px) {
@@ -31250,15 +31250,23 @@ footer.footer--style-3 .copyright {
     }
 }
 .e-main{
-    color: #fff;
+    color: #25272A;
 }
 
 .phone-number{
-    color: #fff;
+    color: #25272A;
+    
+}
+.phone-number b, .e-main b{
+    font-weight: 600;
 }
 
 .contact-info i{
     font-size: 25px;
+    color:#0D73FC !important;
+}
+.contact-info{
+    color: #25272A !important;
 }
 .my-50{
     margin: 7rem 0rem;
@@ -31345,8 +31353,8 @@ footer.footer--style-3 .copyright {
  .accordion-button{
     font-size: 14px !important;
     border: none !important;
-    color:#fff !important;
-    font-weight: 550 !important;
+    color:#25272A !important;
+    font-weight: 650 !important;
     padding:20px 0px 0px 22px !important;
  }
  .accordion{
