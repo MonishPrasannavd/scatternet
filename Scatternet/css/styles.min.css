@@ -16600,7 +16600,7 @@ body.compensate-for-scrollbar {
 
 .icon {
     display: inline-block;
-    width: 1em;
+    width: 2em;
     height: 1em;
     fill: currentColor
 }
@@ -21070,8 +21070,8 @@ ul li::before {
     display: -ms-flexbox;
     display: flex;
     background-color: #0d73fc;
-    margin-top: 6px;
-    padding:12px 15px;
+    margin-top: 7px;
+    padding:8px 10px;
 }
 
 @media only screen and (min-width:992px) {
